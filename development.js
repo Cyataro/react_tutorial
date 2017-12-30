@@ -2,6 +2,7 @@ import path from 'path'
 
 const src  = path.resolve(__dirname, 'src')
 const dist = path.resolve(__dirname, 'dist')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 export default {
   entry: src + '/index.jsx',
