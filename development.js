@@ -30,5 +30,10 @@ export default {
     moduleExtensions: ['-loader']
   },
 
-  plugins: []
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: src + '/index.html',
+      filename: 'index.html'
+    })
+  ]
 }
